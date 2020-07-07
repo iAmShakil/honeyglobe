@@ -1,7 +1,7 @@
 ![Tests](https://github.com/iAmShakil/honeyglobe/workflows/Tests/badge.svg)
 
 
-**honeyglobe** is a quick to configure middleware for handling multipart/form-data to upload files. It's a wrapper around the file uploading middleware named `multer`.
+**honeyglobe** is a quick to configure express middleware for handling multipart/form-data. It's a wrapper around the file uploading middleware named `multer`.
 
 ## Installation
 
@@ -19,7 +19,7 @@ var express = require('express')
 var honeyglobe  = require('honeyglobe')
 var upload = honeyglobe({
   destination: 'uploads/',
-  fileTypes: ['jpg', 'jpeg', 'png', 'mp3', 'mp4'], // don't provide this field if you want to allow all file types.
+  fileTypes: ['jpg', 'jpeg', 'png', 'mp3', 'mp4']
 })
 
 var app = express()
