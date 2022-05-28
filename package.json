@@ -1,6 +1,6 @@
 {
   "name": "honeyglobe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple yet powerful file uploader for express.",
   "main": "./src/index.js",
   "scripts": {
